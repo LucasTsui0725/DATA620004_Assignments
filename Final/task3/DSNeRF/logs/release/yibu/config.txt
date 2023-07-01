@@ -1,0 +1,24 @@
+expname = yibu
+basedir = ./logs/release
+datadir = ./data/yibu
+dataset_type = llff
+
+factor = 8
+llffhold = 16
+
+N_rand = 1024
+N_samples = 128
+N_importance = 64
+
+use_viewdirs = True
+raw_noise_std = 1e-1
+
+no_ndc = True
+colmap_depth = True
+depth_loss = False
+depth_lambda = 0.1
+
+i_testset = 5000
+i_video = 1000
+N_iters = 50000
+lrate=0.01
